@@ -2,8 +2,6 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import Marquee from "react-fast-marquee";
 
-const BANNER_WIDTH = 1000; // the width of the banner in pixels
-const BANNER_SPEED = 50; // the speed at which the banner elements move in pixels per second
 
 const BANNER_IMAGES = [
   "beanie.png",
